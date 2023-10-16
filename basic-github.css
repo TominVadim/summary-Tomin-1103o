@@ -42,17 +42,17 @@ div {
 
 }
 
-.code.command {
+.command {
     
     color: #24292E;
 }
 
-.code.argument {
+.argument {
     
     color: #009999;
 }
 
-.code.commentary {
+.commentary {
     color: #007a10;
 }
 
