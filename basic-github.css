@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SFMono-Regular";
+    src: url(/fonts/SFMono-Regular.otf);
+}
+
+button {
+    height: 50px;
+    width: 150px;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+div {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}   
+.code { 
+    display: inline-block;
+    background: #D3D3D3;
+    padding: 16px;
+    font-family: "SFMono";
+    font-size: 0.85em;
+    height: 0.5em;
+    padding-top: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
+    
+   
+
+}
+
+.code.command {
+    
+    color: #24292E;
+}
+
+.code.argument {
+    
+    color: #009999;
+}
+
+.code.commentary {
+    color: #007a10;
+}
+
+ul {
+    
+    list-style: none;
+    
+}
+
+li {
+    position: relative;
+    margin-bottom: 20px
+}
+
+ ul li::before {
+    position: absolute;
+    background-image: url("/images/github-logo.png");
+    background-repeat: no-repeat;
+    left: -30px;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    content: "";
+}
