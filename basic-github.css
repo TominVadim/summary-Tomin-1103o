@@ -86,3 +86,7 @@ li {
     background-size: cover;
     content: "";
 }
+
+.question {
+    font-weight: bold;
+}
