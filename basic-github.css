@@ -8,6 +8,20 @@
     src: url(/fonts/SFMono-Regular.otf);
 }
 
+header {
+    display: flex;
+    
+}
+
+.headblock {
+    margin-left: 1200px;
+    text-align: right;
+}
+
+body {
+    padding:10px
+}
+
 button {
     height: 50px;
     width: 150px;
@@ -15,7 +29,12 @@ button {
     font-family: "SFMono-Regular";
     color:#24292E;
     font-weight: bold;
+   
+}
 
+.headlogo {
+    height: 50px;
+    width: 50px;
 }
 
 img{
@@ -89,4 +108,10 @@ li {
 
 .question {
     font-weight: bold;
+}
+
+footer {
+    display: flex;
+    text-align: right;
+    margin-left: 1450px;
 }
